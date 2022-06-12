@@ -11,4 +11,4 @@ class Student(models.Model):
 
 # Student isimli modelin adnı admin panelinde Öğrenciler olarak değiştirdik
 #     class Meta:
-#         verbose_name_plural = "Öğrencler"
+#         verbose_name_plural = "Öğrencler" 

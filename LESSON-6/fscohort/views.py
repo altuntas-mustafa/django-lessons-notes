@@ -27,7 +27,7 @@ def student_add(request):
             form.save()
             return redirect("list")
 
-    context = {
+    context = { 
         "form" : form
     }
     return render (request, "fscohort/student_add.html", context)
